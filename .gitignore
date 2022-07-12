@@ -1,0 +1,28 @@
+# .NET build files
+bin/
+obj/
+
+# rust build files
+target/
+
+# IDE files
+.idea/
+.run/
+.vscode/
+tags/
+.DS_Store
+mono_crash*
+.DotSettings
+
+# Dependencies
+node_modules/
+
+# User configuration
+.env
+pluralkit.conf
+pluralkit.*.conf
+*.DotSettings.user
+
+# Generated
+logs/
+.version

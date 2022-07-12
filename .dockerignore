@@ -1,0 +1,21 @@
+# Start by excluding everything
+*
+
+# Include project code and build files
+!PluralKit.*/
+!gateway/
+!myriad_rs/
+!Myriad/
+!PluralKit.sln
+!nuget.config
+!.git
+!proto
+!scripts/run-clustered.sh
+!dashboard
+!scheduled_tasks
+
+# Re-exclude host build artifact directories
+**/bin
+**/obj
+**/target
+**/node_modules
